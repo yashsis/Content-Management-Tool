@@ -1,0 +1,125 @@
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #0C356A;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Main content */
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 1;
+    background-color: #0C356A;
+    color: white;
+    padding: 1rem;
+}
+
+#contentTypes {
+    list-style: none;
+    padding: 0;
+}
+
+#contentTypes li {
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#contentTypes li:hover {
+    color: #40F8FF;
+}
+
+.selected {
+    color: #ff9900;
+}
+
+/* Content list */
+#cont{
+
+    text-align: center;
+    font-size:large;
+    
+}
+.content-list {
+    flex: 2;
+    padding: 0 2rem;
+}
+
+#contentItems {
+    list-style: none;
+    padding: 0;
+}
+
+#contentItems li {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem;
+    transition: background-color 0.3s;
+}
+
+#contentItems li:hover {
+    color: #2058a1;
+}
+
+/* Content editor */
+.content-editor {
+    flex: 1;
+    padding: 0 2rem;
+}
+
+#titleInput,
+#contentInput {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#addButton {
+    border-radius: 20px;
+    background-color: #0C356A;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#addButton:hover {
+    background-color: #2058a1;
+}
+
+/* Logout button */
+#logoutButton {
+    border-radius: 20px;
+
+    margin: 1rem;
+    background-color: #fff;
+    color: #0C356A;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#logoutButton:hover {
+    background-color:#0C356A;
+    color: white;
+}

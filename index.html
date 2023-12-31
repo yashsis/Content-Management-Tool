@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second task (Content Management Tool) Bharat Intern</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Content Management Tool</h1>
+        <button id="logoutButton">Logout</button>
+    </header>
+    <main>
+        <div class="sidebar">
+            <ul id="contentTypes">
+                <!-- Content types will be fetched from the server -->
+            </ul>
+        </div>
+        <div class="content-list content" id="cont"> <strong>Stored content</strong> 
+            <ul id="contentItems">
+                <!-- Content items will be fetched from the server -->
+            </ul>
+        </div>
+        <div class="content-editor">
+            <h2>Content Editor</h2>
+            <input type="text" id="titleInput" placeholder="Title">
+            <textarea id="contentInput" placeholder="Content"></textarea>
+            <button id="addButton">Add Content</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
